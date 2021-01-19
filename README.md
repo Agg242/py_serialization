@@ -17,7 +17,7 @@ Python custom objects serialization example
 
 2) Deserialization:
 
-* For each class, implement a as<Class> (or whatever) function, which
+* For each class, implement a as\<Class\> (or whatever) function, which
   will get a JSON dictionary as input and which will build an instance
   with the data from it.
 
