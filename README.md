@@ -11,7 +11,7 @@ Python custom objects serialization example
 * Implement a json.JSONEncoder subclass, overriding default() method
   sothat it detects your custom classes and calls the toJson() method
 
-* Call json.dumps(<instance>, cls=<json.JSONEncoder subclass>) to
+* Call json.dumps(\<instance\>, cls=\<json.JSONEncoder subclass\>) to
   dump to JSON format
 
 
@@ -21,6 +21,6 @@ Python custom objects serialization example
   will get a JSON dictionary as input and which will build an instance
   with the data from it.
 
-* Call json.loads(<json dictionary>, object_hook=as<main class>), which
+* Call json.loads(\<json dictionary\>, object_hook=as\<main class\>), which
   will build the main object from the dictionary, also building the 
   contained objects
