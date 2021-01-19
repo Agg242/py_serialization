@@ -1,9 +1,6 @@
 # py_serialization
 Python custom objects serialization example
 
-###################################################################
-Example of custom python classes JSON serialization/deserialization
-###################################################################
 1) Serialization:
 
 * For each class, implement a toJson (or whatever) method, which
